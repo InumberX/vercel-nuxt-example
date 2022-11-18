@@ -11,7 +11,6 @@ if (process.env.BASIC_AUTH_USER && process.env.BASIC_AUTH_PASSWORD) {
   basicAuthPairs[process.env.BASIC_AUTH_USER] = process.env.BASIC_AUTH_PASSWORD
 }
 
-
 export default defineNuxtConfig({
   nitro: {
     preset: 'vercel',
